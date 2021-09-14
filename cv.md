@@ -47,8 +47,23 @@ function positiveSum(arr) {
   let newArr = arr.filter(a => a > 0)
     return newArr.reduce((a, b)=>{
    return a + b
- },0)
+ }, 0)
 }
 ```
 
+---
 
+# Education
+
+- __University :__ Belarusian Russian University, Mechanical Engineering major
+- __Courses :__
+    - EPAM Training
+    - IT STEP Academy 
+    - CS50 lectures
+
+---
+
+# English __A2__
+
+
+<img src="https://media.giphy.com/media/MM0Jrc8BHKx3y/giphy.gif" width="100%">
