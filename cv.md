@@ -13,6 +13,9 @@
 
 ---
 
+# About me
+
+I have experience in programming for one year, studyed at the Step Academy and  courses EPAM. I'm persistent, purposeful and i like solution a solve hard problem. My strengths are excellent communication skills. I easily adapt to new conditions.
 
 
 
