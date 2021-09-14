@@ -38,5 +38,17 @@ I have experience in programming for one year, studyed at the Step Academy and  
 ---
 - **_TypeScript_**
 
+---
+
+# Code Example
+
+```javascript
+function positiveSum(arr) {
+  let newArr = arr.filter(a => a > 0)
+    return newArr.reduce((a, b)=>{
+   return a + b
+ },0)
+}
+```
 
 
