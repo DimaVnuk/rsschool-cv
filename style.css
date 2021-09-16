@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+}
+
+body {
+    background: rgba(0, 0, 0, 0.89);
+}
+
+ul>li {
+    padding: 8px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: rgb(197, 172, 72);
+}
+
+.main-cont-cv {
+    width: 1000px;
+    height: 1200px;
+    margin: auto;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cont-wrap {
+    display: flex;
+}
+
+.header {
+    width: 400px;
+    height: 450px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    color: rgb(197, 172, 72);
+    background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.image-avatar_size {
+    width: 250px;
+    height: 250px;
+    border: 10px solid #ffcc34;
+    border-radius: 125px;
+    background: url("./img/PhotoCut.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0 0 0;
+}
+
+.title-name_font {
+    font-size: 30px;
+}
+
+.title-frontend_font {
+    font-size: 20px;
+}
+
+.main {
+    width: 400px;
+    height: 749px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background: black;
+    font-weight: bolder;
+    color: #eec342;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.contacts_size-wrap {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 15px;
+}
+
+.contacts__email {
+    margin-top: 40px;
+}
+
+.contacts__phone {
+    margin-top: 40px;
+}
+
+.phone {
+    position: relative;
+    left: 5px;
+}
+
+.fa-contacts {
+    padding-right: 16px;
+    font-size: 25px;
+}
+
+.fa-mobile-alt {
+    color: rgb(224, 207, 139);
+}
+
+.fa-at {
+    position: relative;
+    right: 3px;
+    color: rgb(224, 207, 139);
+}
+
+.skill-list_size-wrap {
+    height: 300px;
+}
+
+.skill-marker {
+    list-style: none;
+}
+
+.fa-skill {
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+.fa-box-open {
+    position: relative;
+    right: 4px;
+    color: #75AFCC;
+}
+
+.fa-file-code {
+    color: crimson;
+}
+
+.fa-tumblr {
+    position: relative;
+    left: 4px;
+    color: dodgerblue;
+}
+
+.fa-github {
+    color: #F7CF9D;
+}
+
+.fa-angular {
+    color: #C3002F;
+}
+
+.fa-react {
+    color: #4FC3F7;
+}
+
+.webpack {
+    position: relative;
+    right: 9px;
+}
+
+.react {
+    position: relative;
+    right: 3px;
+}
+
+.typescript {
+    position: relative;
+    left: 8px;
+}
+
+.language-list_size-wrap {
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+    left: 10px;
+}
+
+.language {
+    margin-top: 25px;
+}
+
+.title-main {
+    font-size: 30px;
+    text-align: center;
+}
+
+.cont-right-wrap {
+    text-align: center;
+}
+
+.about-myself_size {
+    width: 600px;
+    height: 300px;
+    border: 2px solid #000;
+    padding-top: 10px;
+    background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.about-myself-desc_size {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: cornsilk;
+}
+
+.education_size {
+    width: 600px;
+    height: 200px;
+    border: 2px solid #000;
+    padding-top: 10px;
+    background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.education-desc_size {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: cornsilk;
+}
+
+.courses_size {
+    width: 600px;
+    height: 250px;
+    border: 2px solid #000;
+    padding-top: 10px;
+    background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.courses-desc_size {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: cornsilk;
+}
+
+.code-example_size {
+    width: 600px;
+    height: 450px;
+    border: 2px solid #000;
+    padding-top: 10px;
+    background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.courses-list_padding {
+    padding-left: 30px;
+}
+
+.courses-list_padding>li {
+    font-size: 25px;
+}
+
+.img-codewars {
+    width: auto;
+    height: auto;
+}
+
+.cont-img-codewars {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #000;
+    background: cornsilk;
+}
+
+.footer-cont_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-rs {
+    width: 150px;
+    height: 150px;
+}
+
+.image-github {
+    width: 100px;
+    height: 100px;
+}
+
+.year {
+    font-size: 20px;
+}
