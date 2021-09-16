@@ -2,19 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Permanent Marker', cursive;   
+    font-family: 'Permanent Marker', cursive;
 }
 
-body{
+body {
     background: rgba(0, 0, 0, 0.89);
 }
 
+ul > li{
+    padding: 8px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 .main-cont-cv {
     width: 1000px;
     height: 1200px;
     margin: auto;
     border: 1px solid #000;
     margin-top: 20px;
+    margin-bottom: 20px;
     background: white;
     /* background: #ffcc34; */
     border-radius: 15px;
@@ -42,12 +51,78 @@ body{
     margin: 20px 0 0 0;
 }
 
-
-
-.title-name_font{
+.title-name_font {
     font-size: 25px;
 }
 
-.title-frontend_font{
+.title-frontend_font {
     font-size: 15px;
+}
+
+.main {
+    width: 400px;
+    height: 749px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background: #ffcc34;
+}
+
+.contacts_size-wrap {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   position: relative;
+   left: 15px;
+}
+
+.fa-contacts{
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.skill-list_size-wrap {
+    height: 300px;
+}
+.skill-marker{
+    list-style: none; 
+}
+.fa-skill{
+    padding-right: 25px;
+    font-size: 25px;
+    
+}
+.fa-box-open{
+    position: relative;
+    right: 4px;
+}
+.fa-tumblr{
+    position: relative;
+    left: 4px;
+}
+.webpack{
+position: relative;
+right: 9px;
+}
+.react{
+    position: relative;
+    right: 3px;
+}
+.typescript{
+    position: relative;
+    left: 8px;
+}
+.language-list_size-wrap {
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+    left: 10px;
+}
+
+.title-main{
+    font-size: 30px; 
+    text-align: center;
 }
