@@ -2,4 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;   
+}
+
+body{
+    background: rgba(0, 0, 0, 0.89);
+}
+
+.main-cont-cv {
+    width: 1000px;
+    height: 1200px;
+    margin: auto;
+    border: 1px solid #000;
+    margin-top: 20px;
+    background: white;
+    /* background: #ffcc34; */
+    border-radius: 15px;
+}
+
+.header {
+    width: 400px;
+    height: 450px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.image-avatar_size {
+    width: 250px;
+    height: 250px;
+    border: 10px solid black;
+    border-radius: 125px;
+    background: url("./img/PhotoCut.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0 0 0;
+}
+
+
+
+.title-name_font{
+    font-size: 25px;
+}
+
+.title-frontend_font{
+    font-size: 15px;
 }
