@@ -20,21 +20,19 @@ body {
 }
 .star1:before {
   content: "★★★★★★★★";
- 
 }
 .star2:before {
   content: "★★★★★★★";
-  
 }
 .star4:before {
   content: "★★★";
 }
 .star5:before {
-    content: "★★★";
-  }
-  .star6:before {
-    content: "★★★";
-  }
+  content: "★★★";
+}
+.star6:before {
+  content: "★★★";
+}
 
 ul > li {
   padding: 8px;
@@ -202,7 +200,7 @@ h3 {
 
 .typescript {
   position: relative;
-  left: 8px;
+  left: 4px;
 }
 
 .language-list_size-wrap {
@@ -262,7 +260,7 @@ h3 {
   width: 600px;
   height: 250px;
   border: 2px solid #000;
-  padding-top: 10px;
+  padding-top: 5px;
   background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
 }
 
@@ -297,12 +295,16 @@ h3 {
 .cont-img-codewars {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
 }
 
 .footer {
   width: 100%;
-  height: 150px;
+  height: 120px;
   border: 2px solid #000;
   background: cornsilk;
 }
@@ -325,4 +327,51 @@ h3 {
 
 .year {
   font-size: 20px;
+}
+
+.img-project{
+    width: 180px;
+    height: 130px;
+    margin: 5px;
+    border: 5px solid cornsilk
+}
+
+.img-project_picture-one{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQESdcuB5oKB1w/feedshare-shrink_1280/0/1635965255637?e=1644451200&v=beta&t=3wE3X83gN2gBvxAoRZSI0An1DcK0tpn9mAAssHOZoFY');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-two{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQFQgbIAdG4UFA/feedshare-shrink_1280/0/1635965207171?e=1644451200&v=beta&t=SI_6PJ4KE6cwF-g-vbncfqE5F5YM1oSmVnLIxvVAw4Y');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-three{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQHBemM-9JWi6g/feedshare-shrink_1280/0/1635965112353?e=1644451200&v=beta&t=tP5q2gtDMKTUuPVzWVhVAnhUi9tG3-u3kjT1hCPUW0s');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-four{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQH6q-dhi-K4Yw/feedshare-shrink_1280/0/1635964981040?e=1644451200&v=beta&t=q1siBPyIuK-qLh-fh8aMnAYl__rYtHTDEeU4LSlRGms');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-five{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQE7RMMV7-yHBw/feedshare-shrink_1280/0/1635964892745?e=1644451200&v=beta&t=hBIkUMQ-7Ge9Pe5GMs8zvL8G9CIICJF_6OFePGmldEM');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-six{
+    background: url('./img/christmas.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.image-codewars{
+    width: 70px;
 }
